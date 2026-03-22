@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("Welcome to Express Server 🚀");
+  res.send("Hello");
 });
 
 app.get("/about", (req, res) => {
